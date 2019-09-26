@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XYGatedPlots</class>
+ <widget class="QMainWindow" name="XYGatedPlots">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>XYGatedPlots</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="RectGate1_HL">
+      <item>
+       <layout class="QVBoxLayout" name="RectGate1_VL">
+        <item>
+         <widget class="QLabel" name="RectGate1">
+          <property name="text">
+           <string>RectGate1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG1V1"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG1V2"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG1V3"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG1V4"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG1V5"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG1V6"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="RectGate2_HL">
+      <item>
+       <layout class="QVBoxLayout" name="RectGate2_VL">
+        <item>
+         <widget class="QLabel" name="RectGate2">
+          <property name="text">
+           <string>RectGate2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG2V1"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG2V2"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG2V3"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG2V4"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG2V5"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="RG2V6"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="CicleGate1_HL">
+      <item>
+       <layout class="QVBoxLayout" name="CircleGate1_VL">
+        <item>
+         <widget class="QLabel" name="CircleGate">
+          <property name="text">
+           <string>CircleGate</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="CGV1"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="CGV2"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="CGV3"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="CGV4"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="CGV5"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="CGV6"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
